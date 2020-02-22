@@ -124,7 +124,7 @@ public class VarastoTest {
         Varasto varasto = new Varasto(10,9);
         varasto.lisaaVarastoon(2);
 
-        assertEquals(1, varasto.paljonkoMahtuu(), vertailuTarkkuus);
+        assertEquals(0, varasto.paljonkoMahtuu(), vertailuTarkkuus);
     }
 
     @Test
